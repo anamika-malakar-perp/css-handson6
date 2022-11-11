@@ -51,6 +51,11 @@ body {
 
 .image {
     position: relative;
+    transition: transform 0.3s ease;
+}
+
+.image:hover {
+    transform: translateY(-10px);
 }
 
 .image .text {
